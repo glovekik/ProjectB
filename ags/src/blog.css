@@ -1,0 +1,24 @@
+/* Add these styles for horizontal alignment */
+.blog-container-horizontal {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Add this property for horizontal scrolling if needed */
+  }
+  
+  .card {
+    flex: 0 0 auto; /* Adjust as needed */
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .btn {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
