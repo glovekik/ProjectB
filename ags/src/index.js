@@ -8,6 +8,7 @@ import Artist from './artist';
 import Blog from './blog';
 import Painting from './painting';
 import Profile from './profile';
+import Ahome from './ahome';
 import{BrowserRouter, Routes, Route} from 'react-router-dom';
 
 
@@ -22,6 +23,7 @@ function Website(){
         <Route path = "/blog" element = {<Blog/>}></Route>
         <Route path = "/painting" element = {<Painting/>}></Route>
         <Route path = "/profile" element = {<Profile/>}></Route>
+        <Route path = "/ahome" element = {<Ahome/>}></Route>
 
       </Routes>
     </BrowserRouter>
